@@ -1,4 +1,5 @@
 Question 1 - Client-facing data web page:
+
 My solution approach:
 The solution is a Flask-based web application that allows operators to upload CSV files and manage patient outcomes. The process follows these steps:
 1.	Database Setup:
@@ -25,7 +26,9 @@ To run the Flask web application on an Ubuntu environment:
   -	You can upload CSV files containing "Patient ID" and "Outcome" via a POST request to /upload. (In future iterations, a frontend form will be available.)
   -	Output is currently printed to the terminal/console.
 
+
 Question 2 - Operational AI:
+
 My solution approach:
 1.	Image Preprocessing:
   o	The input image is converted to grayscale and then binarized using adaptive thresholding to enhance digit visibility against the background. This ensures that the digits are clearly separated from any surrounding noise.
@@ -46,8 +49,8 @@ Python libraries used documentation:
 
 
 
-
 Question 3: Bioinformatics:
+
 References:
 1.	PIK3CA Gene cdna sequence:
 https://www.ensembl.org/Homo_sapiens/Gene/Sequence?g=ENSG00000121879;r=3:179148114-179240093
